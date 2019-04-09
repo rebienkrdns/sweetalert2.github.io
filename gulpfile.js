@@ -74,7 +74,7 @@ gulp.task('watch', () => {
   })
 
   gulp.watch([
-    'src/app.js'
+    'src/**/*.js'
   ]).on('change', gulp.series('bundle'))
 
   gulp.watch([
